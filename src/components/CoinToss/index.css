@@ -1,0 +1,52 @@
+/* Write your CSS here */
+
+.container {
+  background-color: #e2a139;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  pad: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.margin {
+  margin-right: 20px;
+}
+
+h1 {
+  color: #a35200;
+}
+
+button {
+  background-color: #f9d423;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+  color: #a35200;
+  width: 100px;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+.counts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
